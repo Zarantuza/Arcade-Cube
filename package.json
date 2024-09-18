@@ -8,15 +8,13 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "gh-pages": "^6.1.1",
     "vite": "^5.4.1"
   },
   "dependencies": {
-    "three": "^0.168.0",
-    "three.js": "^0.77.1"
+    "three": "^0.168.0"
   }
-  
 }
